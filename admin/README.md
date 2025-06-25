@@ -1,12 +1,28 @@
-# React + Vite
+                       Doctor Appointment Booking System
+A Full Stack Doctor Appointment System built with React, Node.js, Express, and MongoDB, enabling users to seamlessly book appointments, manage profiles, and receive real-time notifications. Designed for patients, doctors, and admins with secure, role-based access control.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
 
-Currently, two official plugins are available:
+User Authentication: Sign-up and login for patients and doctors.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Role-Based Access:
+Patients can view doctor availability and book appointments.
+Doctors can manage time slots, appointments, and profile details.
+Admins can monitor system activity.
 
-## Expanding the ESLint configuration
+Appointment Scheduling: Real-time availability and calendar-based booking.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-Time Notifications: Email or in-app alerts for appointment confirmations and status updates.
+
+Profile Management: Update user info, doctor specializations, and contact details.
+
+Tech Stack:
+Frontend: React, Tailwind CSS, Axios
+Backend: Node.js, Express.js
+Database: MongoDB, Mongoose
+Authentication: JWT (JSON Web Tokens)
+Notifications:WebSockets
+
+
+Outcome:
+Built a robust and responsive doctor appointment system that streamlines the scheduling process and provides a real-world healthcare tech solution with role-based access and real-time communication.
